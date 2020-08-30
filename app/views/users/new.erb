@@ -1,12 +1,15 @@
 <h1>Hi Friend! Here is where you sign up to complete your tasks!</h1>
 
 <%= form_with model: @user, local: true do |f| %>
-    <%= f.label :username %>
+    <%= f.label :username %></br>
     <%= f.text_field :username %><br />
+    <br/>
 
-    <%= f.label :password %>
+    <%= f.label :password %></br>
     <%= f.password_field :password %><br />
+    </br>
 
     <%= f.submit "Sign up" %>
+    
 
 <% end %>
