@@ -1,5 +1,10 @@
 <h1>Hi Friend! Here is where you sign up to complete your tasks!</h1>
 
 <%= form_with model: @user, local: true do |f| %>
+    <%= f.label :username %>
+    <%= f.text_filed :username %><br />
+    <%= f.label :password %
+    <%= f.password_field :password %><br />
+    <%= f.submit %>
 
 <% end %>
