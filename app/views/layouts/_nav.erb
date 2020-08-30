@@ -1,5 +1,5 @@
 <ul>
-    <li>It is so super awesome to see you, Friend!</li>
+    <h2>It's super awesome to see you, <%= current_user.username %>!</h2>
     <li><%= link_to 'Login', login_path %></li>
     <li><%= link_to 'Sign up', new_user_path %></li>
     <li><%= link_to 'Logout', logout_path, method: :delete %></li>
