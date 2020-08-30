@@ -1,7 +1,7 @@
 <h1>Hi Friend! Here is where you sign up to complete your tasks!</h1>
 
 <% if @user.errors.any? %>
-    <%= @user.full_messages.to_sentence %>
+    <%= @user.errors.full_messages.to_sentence %>
 <% end %>
 
 
