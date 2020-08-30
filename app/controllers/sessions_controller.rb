@@ -1,4 +1,6 @@
 class SessionsController < ApplicationController
+
+  
   def new
   end
 
@@ -6,7 +8,7 @@ class SessionsController < ApplicationController
   end
 
   def page_requires_login
-    
+
   end
 
   def create
