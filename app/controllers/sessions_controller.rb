@@ -5,7 +5,9 @@ class SessionsController < ApplicationController
   def login
   end
 
-  
+  def page_requires_login
+    
+  end
 
   def create
     @user = User.find_by(username: params[:username])
