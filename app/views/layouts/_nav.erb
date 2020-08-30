@@ -7,4 +7,6 @@
 </ul>
 <% end %>
 
+<% if !logged_in %>
 <h2>It's super awesome to see you, <%= current_user.username %>!</h2>
+<% end %>
