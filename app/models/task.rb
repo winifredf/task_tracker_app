@@ -4,4 +4,5 @@ class Task < ApplicationRecord
 
     def self.completed_tasks
         self.all.selet{| task | task.complete == true}
+    end
 end
