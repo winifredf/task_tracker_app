@@ -30,10 +30,8 @@ gem 'devise'
 gem 'ruby_parser'
 gem 'nokogiri'
 
-gem 'omniauth-facebook'
-
 gem 'omniauth'
-
+gem 'omniauth-facebook'
 gem 'activerecord-session_store'
 
 
