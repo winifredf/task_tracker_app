@@ -28,6 +28,8 @@ gem 'devise'
 gem 'ruby_parser'
 gem 'nokogiri'
 
+gem 'omniauth-facebook'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
