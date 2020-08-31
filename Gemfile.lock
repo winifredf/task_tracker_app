@@ -274,6 +274,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   nokogiri
+  omniauth
   omniauth-facebook
   optimist (~> 3.0, >= 3.0.1)
   puma (~> 4.1)
