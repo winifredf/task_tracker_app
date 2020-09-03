@@ -34,6 +34,10 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'activerecord-session_store'
 
+gem 'image_processing', '~> 1.2'
+gem 'bootsnap', '>= 1.4.2', require: false
+
+
 
 
 # Use Active Storage variant
