@@ -24,17 +24,17 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-gem 'dotenv-rails'
+# gem 'dotenv-rails'
 
 gem 'devise'
-gem 'ruby_parser'
-gem 'nokogiri'
+# gem 'ruby_parser'
+# gem 'nokogiri'
 
-gem 'omniauth'
-gem 'omniauth-facebook'
-gem 'activerecord-session_store'
+# gem 'omniauth'
+# gem 'omniauth-facebook'
+# gem 'activerecord-session_store'
 
-gem 'image_processing', '~> 1.2'
+# gem 'image_processing', '~> 1.2'
 
 
 
