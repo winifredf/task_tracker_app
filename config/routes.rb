@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   get 'authorized', to: 'sessions#page_requires_login'
 
   root to: 'sessions#welcome'
+  root to: 'application#home'
 end
